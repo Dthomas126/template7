@@ -23,16 +23,17 @@ HEADER INFORMATION
 
 
 }
-
-
-.head-img{
+.bg-img{
+    background-image: url("../images/Westech_Architecture_Header.jpg");
     position: relative;
-    width: 100%;
-    height: fit-content;
-    /* opacity: .5; */
-    margin: 0;
-    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+
 }
+
+
 .navigation{
     position: absolute;
     top: 5px;
@@ -93,7 +94,7 @@ WHO SECTION
 }
 .who .row{
 
-    padding: 20px;
+    padding: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     grid-auto-rows: auto;
@@ -132,9 +133,9 @@ font-weight: lighter;
 WHAT SECTION
 ***************************/
 .what{
-    background-color: rgba(0, 0, 0, 0.336);
-    padding: 40px;
-    color: black;
+    background-color: rgba(0, 0, 0, 0.87);
+    padding: 100px;
+    color: whitesmoke;
 }
 .what .row{
    
@@ -144,7 +145,7 @@ WHAT SECTION
 }
 
 .what .row .col svg{
-   fill: white;
+   fill: whitesmoke;
     width: 50px;
     height: auto;
 }
@@ -155,7 +156,7 @@ font-weight: lighter;
 margin:10px 0 70px;
 }
 .what .row .col{
-    border:2px solid black;
+    border:2px solid whitesmoke;
     margin: 10px;
     padding: 30px;
 }
@@ -177,7 +178,7 @@ PORTFOLIO SECTION
 BLOG SECTION
 *****************************/
 .blog{
-    padding: 50px;
+    padding: 100px;
 }
 .blog .row{
     display: grid;
@@ -212,3 +213,6 @@ margin:10px 0 70px;
 .blog .row .col p {
     color: rgba(112, 112, 112, 0.582);
 }
+/* ***************************
+LETS WORK SECTION
+********************************/
