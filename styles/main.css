@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 16px;
+}
+
+/* *****************************************
+HEADER INFORMATION
+**********************************************/
+.header .head-container p{
+    font-size: 1.3rem;
+    padding-bottom: 10px;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.bg-white{
+    background-color: white;
+    color:black;
+
+
+}
+
+.header{
+    /* background-color: black;
+    width: 100%;
+    height: auto; */
+
+}
+.head-img{
+    position: relative;
+    width: 100%;
+    height: auto;
+    opacity: .4;
+    margin: 0;
+    padding: 0;
+}
+.navigation{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.navigation ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    display: inline;
+    margin: 0 10px;
+    color:white;
+    font-size: 1.3rem;
+
+}
+.head-container{
+   
+   
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    color: white;
+    width: 40%;
+}
+.head-container p{
+    border-bottom:10px;
+
+}
+.head-container h1{
+    font-size: 3rem;
+}
+ .btn{
+    margin-top: 10px;
+    padding: 10px;
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    font-size: 1.2rem;
+}
+.head-container .btn:hover{
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
+
+/* *********************
+ARTICLE SECTION
+**************************/
+.row{
+    background-color:rgba(209, 209, 209, 0.527);
+    color:black;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-auto-rows: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:lighter;
+}
+.who-image{
+    box-shadow: 5px 8px 8px 0 grey;
+}
+.indent{
+    margin-top: 50px;
+}
+.container{
+    width: 60%;
+    margin: 50px auto 0;
+    /* box-shadow: 5px 8px 8px 0 grey;
+   background-color: whitesmoke; */
+   padding: 20px;
+}
+.col .btn{
+    border-color: rgba(0, 0, 0, 0.5);
+    color:rgba(0, 0, 0, 0.5);
+}
+
+.col h2{
+ margin: 20px;
+text-align: center;
+font-size: 2.5rem;
+font-weight: lighter;
+
+}
+.col p {
+    margin: 10px 0;
+}
