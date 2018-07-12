@@ -71,7 +71,7 @@ cursor: pointer;
 
 }
 .head-container h1{
-    font-size: 3rem;
+    font-size: 4rem;
 }
  .btn{
     margin-top: 10px;
@@ -276,6 +276,12 @@ margin:10px 0 ;
 .final-container p {
     margin-bottom: 20px;
 }
+.final-container .btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: .5s;
+}
 /* *************************
 FOOTER
 *****************************/
@@ -313,4 +319,7 @@ margin: 5px;
     fill: white;
     width: 50px;
     height: auto;
+}
+.btn:hover{
+    cursor: pointer;
 }
