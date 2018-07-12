@@ -51,10 +51,10 @@ HEADER INFORMATION
 
 }
 .navigation ul li:hover{
-background-color: white;
-color: black;
-transition: .5s;
-cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: .5s;
+    cursor: pointer;
 
 }
 .head-container{
@@ -119,8 +119,7 @@ WHO SECTION
 .container{
     width: 60%;
     margin: 50px auto 0;
-    /* box-shadow: 5px 8px 8px 0 grey;
-   background-color: whitesmoke; */
+ 
    padding: 20px;
 }
 .col .btn{
@@ -128,16 +127,16 @@ WHO SECTION
     color:rgba(0, 0, 0, 0.5);
 }
 .col .btn:hover{
-  transition: .5s;
+    transition: .5s;
     background-color:rgb(0, 0, 0);
     color: white;
 }
 
 .col h2{
- margin: 20px;
-text-align: center;
-font-size: 2.5rem;
-font-weight: lighter;
+    margin: 20px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: lighter;
 
 }
 .col p {
@@ -221,8 +220,8 @@ BLOG SECTION
 .blog h2{
     width: 400px;
     font-size: 2.5rem;
-font-weight: lighter;
-margin:10px 0 70px;
+    font-weight: lighter;
+    margin:10px 0 70px;
 }
 .blog .row .col{
     margin: 20px;
@@ -252,8 +251,8 @@ FINAL/LETS WORK SECTION
     background-image: url("../images/GenderLens3.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-   background-size: cover;
-   position: relative;
+    background-size: cover;
+    position: relative;
     height: 500px;
   
 }
@@ -301,11 +300,11 @@ FOOTER
     padding-left:15px; 
     margin: 15px 0;
 }
-.footer ul li{
+.footer .info-links li{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-list-style-type: none;
-font-size: 1.1rem;
-margin: 5px;
+    list-style-type: none;
+    font-size: 1.1rem;
+    margin: 5px;
 }
 .footer ul li:hover{
     cursor: pointer;
@@ -316,7 +315,7 @@ margin: 5px;
     display: inline;
 }
 .footer .social-links li svg{
-    fill: white;
+    
     width: 50px;
     height: auto;
 }
